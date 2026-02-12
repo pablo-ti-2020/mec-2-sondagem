@@ -3,10 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Simulador – Sondagem Geotécnica</title>
-
+<title>Simulador – Sondagem Geotécnica Completo</title>
 <style>
-body{margin:0;font-family:Arial;background:#f2f4f8}
+body{margin:0;font-family:Arial,sans-serif;background:#f2f4f8}
 header{background:linear-gradient(135deg,#3b1f1f,#1a0f0f);color:white;padding:20px;text-align:center}
 section{padding:20px;max-width:1100px;margin:auto}
 .card{background:white;border-radius:10px;padding:20px;margin-bottom:20px;box-shadow:0 4px 12px rgba(0,0,0,.1)}
@@ -25,20 +24,71 @@ button:hover{opacity:0.9}
 <body>
 
 <header>
-<h1>🛠️ Investigação Geotécnica</h1>
-<p>60 Fundamentos Essenciais + 20 Questões sobre Sondagem</p>
+<h1>🛠️ Investigação Geotécnica Completa</h1>
+<p>50 Conceitos + 20 Questões sobre Sondagem</p>
 </header>
 
 <section>
 
+<!-- 50 Conceitos Teóricos -->
 <div class="card">
-<h2>📖 Briefing Técnico – 60 Fundamentos Essenciais</h2>
-<!-- COLEI AQUI EXATAMENTE SEU CONTEÚDO -->
+<h2>📖 50 Conceitos Essenciais de Sondagem</h2>
 <div id="fundamentos">
-<!-- (mantido exatamente como você enviou) -->
+<!-- 50 conceitos -->
+<div class="rule">1. Sondagem investiga o subsolo antes de qualquer obra.</div>
+<div class="rule">2. Permite identificar camadas, resistência e lençol freático.</div>
+<div class="rule">3. Escolha do tipo depende do objetivo da obra.</div>
+<div class="rule">4. Sondagem a percussão é prática e econômica.</div>
+<div class="rule">5. Ensaio SPT mede resistência à penetração.</div>
+<div class="rule">6. Número de golpes (N) indica compacidade ou consistência.</div>
+<div class="rule">7. Solos arenosos: N indica compacidade.</div>
+<div class="rule">8. Solos argilosos: N indica consistência.</div>
+<div class="rule">9. Sondagem rotativa usada para solos muito resistentes ou rochas.</div>
+<div class="rule">10. Sondagem mista combina métodos rotativo e percussivo.</div>
+<div class="rule">11. Programação considera área e porte da edificação.</div>
+<div class="rule">12. Número mínimo de furos segue normas técnicas.</div>
+<div class="rule">13. Perfil geotécnico representa camadas graficamente.</div>
+<div class="rule">14. Interpretação do perfil orienta escolha da fundação.</div>
+<div class="rule">15. Nível do lençol freático deve ser registrado.</div>
+<div class="rule">16. Execução segue normas da ABNT.</div>
+<div class="rule">17. Amostragem permite identificação tátil-visual.</div>
+<div class="rule">18. Relatório apresenta dados técnicos e conclusões.</div>
+<div class="rule">19. Erros comprometem dimensionamento estrutural.</div>
+<div class="rule">20. Profundidade investigada deve atingir camada resistente.</div>
+<div class="rule">21. Sondagens insuficientes podem gerar recalques.</div>
+<div class="rule">22. Interpretação incorreta do N leva a superdimensionamento.</div>
+<div class="rule">23. Locação correta dos furos influencia representatividade.</div>
+<div class="rule">24. Obras de grande porte exigem investigação detalhada.</div>
+<div class="rule">25. SPT usa martelo padronizado de 65 kg.</div>
+<div class="rule">26. Queda do martelo é de 75 cm.</div>
+<div class="rule">27. Golpes finais de 30 cm são considerados.</div>
+<div class="rule">28. Boletim registra cada metro perfurado.</div>
+<div class="rule">29. Sondagem é indispensável antes da fundação.</div>
+<div class="rule">30. Segurança da obra começa na investigação.</div>
+<div class="rule">31. Identifica solos colapsíveis.</div>
+<div class="rule">32. Camadas orgânicas possuem baixa resistência.</div>
+<div class="rule">33. Solos heterogêneos exigem análise criteriosa.</div>
+<div class="rule">34. SPT permite coleta de amostras deformadas.</div>
+<div class="rule">35. Profundidade do lençol freático varia sazonalmente.</div>
+<div class="rule">36. Ensaios complementares podem ser necessários.</div>
+<div class="rule">37. Relatório deve conter planta de locação dos furos.</div>
+<div class="rule">38. Fundações profundas dependem dos dados da sondagem.</div>
+<div class="rule">39. Solos expansivos exigem atenção especial.</div>
+<div class="rule">40. Sondagem orienta decisões econômicas.</div>
+<div class="rule">41. Profissional habilitado deve assinar relatório.</div>
+<div class="rule">42. Camadas de aterro precisam ser identificadas.</div>
+<div class="rule">43. Valores muito altos de N em rocha indicam recusa.</div>
+<div class="rule">44. Solos moles indicam possível necessidade de estacas.</div>
+<div class="rule">45. Sondagem reduz incertezas do projeto.</div>
+<div class="rule">46. Cada metro perfurado representa custo e informação.</div>
+<div class="rule">47. Obras em encostas exigem investigação aprofundada.</div>
+<div class="rule">48. Solos arenosos saturados podem sofrer liquefação.</div>
+<div class="rule">49. Camadas rígidas superficiais podem esconder solos moles abaixo.</div>
+<div class="rule">50. Perfil geotécnico orienta cálculo de recalques.</div>
 </div>
 </div>
 
+<!-- Quiz 20 questões -->
 <div class="card">
 <h2>📝 Questionário Técnico – Sondagem (20 Questões)</h2>
 <div id="quiz"></div>
@@ -49,254 +99,54 @@ button:hover{opacity:0.9}
 </section>
 
 <script>
-
-// 20 QUESTÕES TÉCNICAS SOBRE SONDAGEM
-
+// 20 QUESTÕES SOBRE OS 50 CONCEITOS
 const perguntas = [
-
-{
-p:"1) A principal finalidade da sondagem é:",
-a:["Executar fundações profundas",
-   "Investigar características do subsolo",
-   "Compactar o terreno",
-   "Impermeabilizar o solo"],
-c:1,
-e:"A sondagem investiga camadas, resistência e nível d’água do subsolo."
-},
-
-{
-p:"2) O ensaio SPT mede:",
-a:["Permeabilidade do solo",
-   "Resistência à penetração",
-   "Teor de umidade",
-   "Compressibilidade direta"],
-c:1,
-e:"O SPT mede a resistência do solo por número de golpes (N)."
-},
-
-{
-p:"3) O martelo do SPT possui peso padronizado de:",
-a:["50 kg",
-   "60 kg",
-   "65 kg",
-   "75 kg"],
-c:2,
-e:"O peso normativo é 65 kg."
-},
-
-{
-p:"4) A altura de queda do martelo no SPT é:",
-a:["50 cm",
-   "65 cm",
-   "75 cm",
-   "1 metro"],
-c:2,
-e:"A queda padrão é 75 cm."
-},
-
-{
-p:"5) O valor N do SPT corresponde aos golpes necessários para cravar:",
-a:["10 cm finais",
-   "20 cm iniciais",
-   "30 cm finais",
-   "1 metro"],
-c:2,
-e:"Consideram-se os golpes dos 30 cm finais."
-},
-
-{
-p:"6) A sondagem rotativa é indicada para:",
-a:["Solos moles superficiais",
-   "Areias soltas",
-   "Rochas e solos muito resistentes",
-   "Apenas solos orgânicos"],
-c:2,
-e:"Rotativa é usada quando percussão não avança."
-},
-
-{
-p:"7) O perfil geotécnico representa:",
-a:["Mapa topográfico",
-   "Camadas do solo em profundidade",
-   "Projeto estrutural",
-   "Planta arquitetônica"],
-c:1,
-e:"É o gráfico vertical das camadas identificadas."
-},
-
-{
-p:"8) O nível do lençol freático deve ser:",
-a:["Ignorado",
-   "Estimado visualmente",
-   "Registrado durante a sondagem",
-   "Definido pelo arquiteto"],
-c:2,
-e:"O nível d’água influencia fundações e escavações."
-},
-
-{
-p:"9) Valores baixos de N indicam:",
-a:["Solo muito resistente",
-   "Solo compacto",
-   "Solo mole ou pouco compacto",
-   "Rocha sã"],
-c:2,
-e:"Poucos golpes indicam baixa resistência."
-},
-
-{
-p:"10) A locação incorreta dos furos pode:",
-a:["Melhorar precisão",
-   "Reduzir custo apenas",
-   "Comprometer representatividade do solo",
-   "Eliminar necessidade de fundação"],
-c:2,
-e:"Furos mal posicionados não representam o terreno."
-},
-
-{
-p:"11) Solos moles identificados na sondagem geralmente indicam:",
-a:["Fundação superficial direta",
-   "Possível necessidade de estacas",
-   "Dispensa de fundação",
-   "Terreno rochoso"],
-c:1,
-e:"Baixa resistência pode exigir fundação profunda."
-},
-
-{
-p:"12) A sondagem mista combina:",
-a:["SPT e laboratório",
-   "Rotativa e percussão",
-   "Compactação e escavação",
-   "Topografia e geologia"],
-c:1,
-e:"É usada quando há transição solo-rocha."
-},
-
-{
-p:"13) Camadas de aterro devem ser:",
-a:["Desconsideradas",
-   "Identificadas no perfil",
-   "Compactadas automaticamente",
-   "Ignoradas se superficiais"],
-c:1,
-e:"Aterros mal compactados podem comprometer fundações."
-},
-
-{
-p:"14) Sondagens insuficientes podem resultar em:",
-a:["Economia segura",
-   "Recalques inesperados",
-   "Maior precisão",
-   "Super resistência"],
-c:1,
-e:"Pouca investigação aumenta risco estrutural."
-},
-
-{
-p:"15) A profundidade investigada deve atingir:",
-a:["Apenas 1 metro",
-   "Lençol freático",
-   "Camada resistente adequada",
-   "Altura do prédio"],
-c:2,
-e:"A fundação precisa apoio em camada competente."
-},
-
-{
-p:"16) Valores muito altos de N em rocha indicam:",
-a:["Solo mole",
-   "Recusa do ensaio",
-   "Alta permeabilidade",
-   "Erro de cálculo estrutural"],
-c:1,
-e:"Recusa ocorre quando não há penetração significativa."
-},
-
-{
-p:"17) Solos arenosos saturados podem apresentar:",
-a:["Adensamento imediato",
-   "Liquefação",
-   "Expansão permanente",
-   "Coesão elevada"],
-c:1,
-e:"Liquefação ocorre sob vibração em areias saturadas."
-},
-
-{
-p:"18) O relatório de sondagem deve ser assinado por:",
-a:["Pedreiro responsável",
-   "Arquiteto",
-   "Profissional habilitado",
-   "Cliente da obra"],
-c:2,
-e:"Responsabilidade técnica exige profissional habilitado."
-},
-
-{
-p:"19) Obras de grande porte exigem:",
-a:["Menos furos",
-   "Investigação mais detalhada",
-   "Apenas um furo central",
-   "Dispensa de sondagem"],
-c:1,
-e:"Maior porte = maior necessidade de dados."
-},
-
-{
-p:"20) A sondagem deve ocorrer:",
-a:["Após concretagem",
-   "Após fundação pronta",
-   "Antes da definição da fundação",
-   "Após entrega da obra"],
-c:2,
-e:"Primeiro investiga, depois projeta."
-}
-
+{p:"1) Qual a principal finalidade da sondagem?",a:["Compactar o solo","Investigar características do subsolo","Medir nível de chuva","Construir fundação"],c:1,e:"A sondagem investiga camadas, resistência e lençol freático."},
+{p:"2) O SPT mede:",a:["Resistência à penetração","Permeabilidade","Umidade do solo","Adensamento"],c:0,e:"O SPT mede a resistência do solo à penetração pelo número de golpes (N)."},
+{p:"3) O peso padronizado do martelo SPT é:",a:["50 kg","65 kg","75 kg","80 kg"],c:1,e:"O martelo padronizado tem 65 kg."},
+{p:"4) Altura de queda do martelo SPT:",a:["50 cm","65 cm","75 cm","1 m"],c:2,e:"Altura de queda padrão é 75 cm."},
+{p:"5) Número de golpes (N) do SPT considera:",a:["10 cm finais","20 cm iniciais","30 cm finais","1 metro"],c:2,e:"Consideram-se os 30 cm finais do amostrador."},
+{p:"6) Sondagem rotativa é indicada para:",a:["Solos moles","Areias soltas","Rochas e solos muito resistentes","Solos orgânicos"],c:2,e:"Rotativa é usada quando percussão não avança."},
+{p:"7) Perfil geotécnico representa:",a:["Mapa topográfico","Camadas do solo","Projeto estrutural","Planta arquitetônica"],c:1,e:"É o gráfico vertical das camadas de solo."},
+{p:"8) Nível do lençol freático deve ser:",a:["Ignorado","Estimado","Registrado durante sondagem","Definido pelo arquiteto"],c:2,e:"O nível da água influencia fundações e escavações."},
+{p:"9) Valores baixos de N indicam:",a:["Solo muito resistente","Solo compacto","Solo mole ou pouco compacto","Rocha sã"],c:2,e:"Poucos golpes indicam baixa resistência."},
+{p:"10) Locação incorreta dos furos pode:",a:["Melhorar precisão","Reduzir custo","Comprometer representatividade do solo","Não alterar"],c:2,e:"Furos mal posicionados não representam corretamente o terreno."},
+{p:"11) Solos moles podem indicar:",a:["Fundação superficial","Necessidade de estacas","Sem fundação","Terreno rochoso"],c:1,e:"Baixa resistência pode exigir fundação profunda."},
+{p:"12) Sondagem mista combina:",a:["SPT e laboratório","Rotativa e percussão","Compactação e escavação","Topografia e geologia"],c:1,e:"Usada quando há transição solo-rocha."},
+{p:"13) Camadas de aterro devem:",a:["Ser desconsideradas","Identificadas","Compactadas automaticamente","Ignoradas"],c:1,e:"Aterros mal compactados podem comprometer fundações."},
+{p:"14) Sondagens insuficientes podem causar:",a:["Economia segura","Recalques inesperados","Maior precisão","Super resistência"],c:1,e:"Pouca investigação aumenta risco estrutural."},
+{p:"15) Profundidade investigada deve atingir:",a:["1 metro","Lençol freático","Camada resistente adequada","Altura do prédio"],c:2,e:"A fundação precisa apoio em camada competente."},
+{p:"16) Valores muito altos de N em rocha indicam:",a:["Solo mole","Recusa do ensaio","Alta permeabilidade","Erro estrutural"],c:1,e:"Recusa ocorre quando não há penetração significativa."},
+{p:"17) Solos arenosos saturados podem apresentar:",a:["Adensamento","Liquefação","Expansão","Coesão elevada"],c:1,e:"Liquefação ocorre em areias saturadas sob vibração."},
+{p:"18) Relatório de sondagem deve ser assinado por:",a:["Pedreiro","Arquiteto","Profissional habilitado","Cliente"],c:2,e:"Responsabilidade técnica exige profissional habilitado."},
+{p:"19) Obras de grande porte exigem:",a:["Menos furos","Investigação detalhada","Apenas um furo central","Dispensa sondagem"],c:1,e:"Maior porte = maior necessidade de dados."},
+{p:"20) Sondagem deve ocorrer:",a:["Após concretagem","Após fundação","Antes da definição da fundação","Após entrega da obra"],c:2,e:"Primeiro investiga, depois projeta."}
 ];
 
-document.getElementById("quiz").innerHTML =
-perguntas.map((q,i)=>`
+document.getElementById("quiz").innerHTML = perguntas.map((q,i)=>`
 <div class="question">
 <p><strong>${q.p}</strong></p>
-${q.a.map((alt,j)=>`
-<label><input type="radio" name="q${i}" value="${j}"> ${alt}</label>
-`).join("")}
+${q.a.map((alt,j)=>`<label><input type="radio" name="q${i}" value="${j}"> ${alt}</label>`).join("")}
 <div class="explanation">${q.e}</div>
-</div>
-`).join("");
+</div>`).join("");
 
 function corrigir(){
 let acertos=0;
-
 document.querySelectorAll('.question').forEach((q,idx)=>{
 const correta=perguntas[idx].c;
 let marcada=null;
-
-q.querySelectorAll('input').forEach(input=>{
-if(input.checked){marcada=Number(input.value);}
-});
-
+q.querySelectorAll('input').forEach(input=>{if(input.checked) marcada=Number(input.value);});
 q.querySelectorAll('label').forEach((l,i)=>{
 if(i===correta){l.classList.add('correct');}
-if(marcada!==null && i===marcada && marcada!==correta){
-l.classList.add('wrong');
-}
+if(marcada!==null && i===marcada && marcada!==correta){l.classList.add('wrong');}
 });
-
-if(marcada===correta){acertos++;}
+if(marcada===correta) acertos++;
 q.querySelector('.explanation').style.display="block";
 });
-
 let percentual = ((acertos/perguntas.length)*100).toFixed(1);
-
 document.getElementById("resultado").innerHTML =
-`Você acertou ${acertos} de ${perguntas.length} questões.<br>
-Percentual de desempenho: ${percentual}%`;
-
+`Você acertou ${acertos} de ${perguntas.length} questões.<br>Percentual de desempenho: ${percentual}%`;
 }
-
 </script>
 
 </body>
